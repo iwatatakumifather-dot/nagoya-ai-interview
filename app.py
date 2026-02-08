@@ -11,7 +11,7 @@ model = genai.GenerativeModel('models/gemini-1.5-flash')
 
 # 2. 구글 시트 ID (영태님의 시트 ID로 꼭 확인하세요)
 # 주소창에서 /d/ 와 /edit 사이에 있는 긴 문자열입니다.
-SHEET_ID = "17DOk-zLFHhlwMgL_wiPYYXS-tLAoSYvZpWoLwcP6Mu8 "
+SHEET_ID = "17DOk-zLFHhlwMgL_wiPYYXS-tLAoSYvZpWoLwcP6Mu8"
 # URL을 더 안정적인 export 방식으로 변경했습니다.
 url = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/export?format=csv"
 
