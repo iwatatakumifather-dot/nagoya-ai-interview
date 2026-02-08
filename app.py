@@ -6,7 +6,7 @@ import os
 
 # 1. API 키 설정 (가장 확실한 방법: 직접 입력 또는 Secrets 사용)
 # 만약 에러가 계속되면 " " 사이에 영태님의 API 키를 직접 넣어보세요.
-API_KEY = st.secrets.get("GEMINI_API_KEY", "여기에_키를_직접_넣으세요")
+API_KEY = st.secrets.get("GEMINI_API_KEY", "AIzaSyAV9mCyS7fJFj4d671o-SEO2ccPAH4JjQc")
 
 if not API_KEY or API_KEY == "AIzaSyAV9mCyS7fJFj4d671o-SEO2ccPAH4JjQc":
     st.error("⚠️ API 키가 설정되지 않았습니다. 코드에 직접 넣거나 Streamlit Secrets에 입력해 주세요.")
